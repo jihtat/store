@@ -1,7 +1,7 @@
 import { logDOM } from '@testing-library/react'
 import './style.css'
 import React, {useState, useEffect} from 'react';
-import logo from './lasercut1.png';
+import logo from './cropped.png';
 import {FaShoppingBag} from 'react-icons/fa'
 import {FaSortDown} from 'react-icons/fa'
 

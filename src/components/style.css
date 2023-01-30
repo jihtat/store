@@ -43,7 +43,7 @@ p{
     align-items: center;
     justify-content: space-between;
     padding: 20px 88px;
-    background: #ffd5ab;
+    background: #B7C4CF;
     box-shadow: 0 5px 15px rgb(172, 167, 167);
     z-index: 999;
     position: sticky;
@@ -68,7 +68,7 @@ p{
 }
 #navbar li a:hover,
 #navbar li a.active{
-    color: #b7472a;
+    color: #EEE3CB;
 }
 #navbar li a.active::after,
 #navbar li a:hover::after{
@@ -88,7 +88,7 @@ p{
     padding: 0 20px;
   }
   .drop:hover{
-    color:#b7472a;
+    color:#EEE3CB;
       transition: 0.7s;
   }  
 .dropdown-list {
@@ -105,7 +105,7 @@ p{
     display: block;
   }
   .dropdown-list a:hover {
-    background-color: #ffd5ab;
+    background-color: #EEE3CB;
   }
   .dropdown:hover .dropdown-list {
     display: block;
@@ -117,7 +117,7 @@ p{
     width: 100%;
     position: absolute;
     bottom: 0;
-    background: linear-gradient(to right,  #ffd5ab, #eec399, #e9a57e, #a0570d);
+    background: linear-gradient(to right,  #B7C4CF, #B7C4CF, #D2DAFF, #EFEFEF);
     color: #fff;
     padding: 100px 0 30px;
     border-top-left-radius: 125px;
@@ -156,12 +156,12 @@ p{
   }
   .col p {
     font-size: 14px;
-    color: #eeeeee;
+    color: #ffffff;
   }
   
   .email-id {
     width: fit-content;
-    border-bottom: 1px solid rgb(245, 234, 234);
+    border-bottom: 1px solid rgb(255, 255, 255);
     margin: 20px 0;
     font-size: 18px;
   }
@@ -211,7 +211,7 @@ form .far {
   
   form button .fas {
     font-size: 16px;
-    color: #ccc;
+    color: #fff;
   }
   
  
@@ -222,14 +222,14 @@ form .far {
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    color: rgb(197, 71, 21);
+    color: #967E76;
     background: #fff;
     margin-right: 15px;
     cursor: pointer;
   }
 
   .faicon:hover{
-    color:#613314;
+    color: #B7C4CF;
   }
 
   hr {
@@ -248,7 +248,7 @@ form .far {
   .underline {
     width: 100%;
     height: 5px;
-    background: #ffdfdf;
+    background: #fdeeee;
     border-radius: 3px;
     position: absolute;
     top: 25px;
@@ -258,7 +258,7 @@ form .far {
   .underline span {
     width: 15px;
     height: 100%;
-    background: #fff;
+    background: rgb(207, 188, 188);
     border: 3px;
     position: absolute;
     top: 0;

@@ -1,5 +1,5 @@
 import './style.css'
-import logo from './lasercut1.png';
+import logo from './pic.png';
 import { FaInstagram ,FaFacebook, FaArrowRight, FaRegEnvelope} from "react-icons/fa";
 
 export function Footer(): JSX.Element{
@@ -13,8 +13,8 @@ export function Footer(): JSX.Element{
         <h3>Adresse<div className="underline"><span></span></div>
         </h3>
         <p>Tunisia</p>
-        <p>4260 Douz-Tunisia-El Aouina</p>
-        <p className="email-id">Khachineeya@gmail.com</p>
+        <p>Kébili-Douz</p>
+        <p className="email-id">bawone2410@ezgiant.com</p>
       </div>
       <div className="col">
         <h3>Links <div className="underline"><span></span></div>
@@ -40,7 +40,7 @@ export function Footer(): JSX.Element{
       </div>
     </div>
     <hr/>
-    <p className="copyright">© 2023, Lasercut-khachineEya</p>
+    <p className="copyright">© 2023, Dress To Impress</p>
   </footer>
 
 
