@@ -6,8 +6,7 @@ export function Footer(): JSX.Element{
     return  <footer>
     <div className="row">
       <div className="col">
-        <img src={logo} alt="logo" width="100px" height="100px"/>
-        <p></p>
+        <img src={logo} alt="logo" width="90px" height="90px"/>
       </div>
       <div className="col">
         <h3>Adresse<div className="underline"><span></span></div>

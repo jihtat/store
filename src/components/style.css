@@ -1,14 +1,15 @@
 @import url('https://css.gg/shopping-cart.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;}
-body{
-    width: 100%;
-}
+ body{
+      width: 100%;
+  }
 
 h1{
     font-size: 50px;
@@ -42,11 +43,11 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 88px;
+    padding: 20px 50px;
     background: #B7C4CF;
     box-shadow: 0 5px 15px rgb(172, 167, 167);
     z-index: 999;
-    position: sticky;
+    position:sticky;
     top: 0;
     left: 0;
 }
@@ -115,11 +116,11 @@ p{
 
   footer {
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     background: linear-gradient(to right,  #B7C4CF, #B7C4CF, #D2DAFF, #EFEFEF);
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 10px 0 10px;
     border-top-left-radius: 125px;
     font-size: 13px;
     line-height: 13px;
@@ -275,7 +276,7 @@ form .far {
     }
   }
   
-  @media (max-width: 700px) {
+  @media (max-width: 200px) {
     footer {
       bottom: unset;
     }
@@ -287,4 +288,4 @@ form .far {
       flex-basis: 100%;
     }
   }
-  
+ 
