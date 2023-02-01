@@ -1,35 +1,50 @@
 import './Home.css'
+import {Swiper, SwiperSlide} from 'swiper/react'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/effect-fade'
+import {Navigation , EffectFade} from 'swiper'
 import electronic from './Electronic.png'
 import jewelry from './jewelry.jpg'
 import men from './Men.jpg'
 import women from './women.jpg'
-
-
-
+import { styles } from 'dom7'
 
 
 export function Home(): JSX.Element{
-    return  <div className="slider" style={{margin:"5% 0"}}>
-    <div className="imagebox">
-        <img src={electronic}/>
-        <a ></a>
-        <h3>Your Home smarter</h3>
-    </div>
-    <div className="imagebox">
-        <img src={jewelry}></img>
-        <h3>magical jewelry set</h3>
+    return ( <div className="container">
+        <Swiper
+           modules={[Navigation , EffectFade]}
+           navigation 
+           effect
+           speed={800}
+           slidesPerview={1}
+           loop 
+           className="myswiper"
+        >
+            <SwiperSlide>
+                <img  src={electronic}    alt=""  />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img  src={jewelry}    alt=""  />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img  src={men}    alt=""  />
+            </SwiperSlide>
+            <SwiperSlide>
+                <img  src={women}    alt=""  />
+            </SwiperSlide>
+
+
+
+        </Swiper>
 
     </div>
-    <div className="imagebox">
-        <img src={men}/>
-        <h3>Men's wear</h3>
-    </div>
-    <div className="imagebox">
-        <img src={women}/>
-        <h3>Women's clothing</h3>
-    </div>
-   
-</div>
+
+
+
+
+    )
 
       
 }
