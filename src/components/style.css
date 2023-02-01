@@ -44,7 +44,7 @@ p{
     align-items: center;
     justify-content: space-between;
     padding: 20px 50px;
-    background: #B7C4CF;
+    background: #DEB887;
     box-shadow: 0 5px 15px rgb(172, 167, 167);
     z-index: 999;
     position:sticky;
@@ -69,7 +69,7 @@ p{
 }
 #navbar li a:hover,
 #navbar li a.active{
-    color: #EEE3CB;
+    color: peru;
 }
 #navbar li a.active::after,
 #navbar li a:hover::after{
@@ -106,7 +106,7 @@ p{
     display: block;
   }
   .dropdown-list a:hover {
-    background-color: #EEE3CB;
+    background-color: #FAEAB1;
   }
   .dropdown:hover .dropdown-list {
     display: block;
@@ -118,7 +118,7 @@ p{
     width: 100%;
     position: relative;
     bottom: 0;
-    background: linear-gradient(to right,  #B7C4CF, #B7C4CF, #D2DAFF, #EFEFEF);
+    background: linear-gradient(to right,  #DEB887, #DEB887, #FAEAB1, #F2DEBA);
     color: #fff;
     padding: 10px 0 10px;
     border-top-left-radius: 125px;
@@ -212,7 +212,7 @@ form .far {
   
   form button .fas {
     font-size: 16px;
-    color: #fff;
+    color: rgb(255, 255, 255);
   }
   
  
@@ -223,14 +223,14 @@ form .far {
     text-align: center;
     line-height: 40px;
     font-size: 20px;
-    color: #967E76;
+    color: #3C2317;
     background: #fff;
     margin-right: 15px;
     cursor: pointer;
   }
 
   .faicon:hover{
-    color: #B7C4CF;
+    color: #DEB887;
   }
 
   hr {
@@ -259,7 +259,7 @@ form .far {
   .underline span {
     width: 15px;
     height: 100%;
-    background: rgb(207, 188, 188);
+    background: #DEB887;
     border: 3px;
     position: absolute;
     top: 0;
