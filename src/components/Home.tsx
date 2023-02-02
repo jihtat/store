@@ -1,50 +1,31 @@
-import './Home.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
-import 'swiper/css'
-import 'swiper/css/navigation'
-import 'swiper/css/effect-fade'
-import {Navigation , EffectFade} from 'swiper'
+import {Navigation } from 'swiper'
+
 import electronic from './Electronic.png'
 import jewelry from './jewelry.jpg'
 import men from './Men.jpg'
 import women from './women.jpg'
-import { styles } from 'dom7'
+
+import 'swiper/css'
+import 'swiper/css/navigation'
+import 'swiper/css/effect-fade'
+import './Home.css'
 
 
-export function Home(): JSX.Element{
-    return ( <div className="container">
+export function Home(): JSX.Element {
+    const images = [electronic, jewelry, men, women]
+    return (
         <Swiper
-           modules={[Navigation , EffectFade]}
-           navigation 
-           effect
-           speed={800}
-           slidesPerview={1}
-           loop 
-           className="myswiper"
+            modules={[Navigation]}
+            navigation={true}
+            speed={800}
+            slidesPerView={1}
+            loop
+            style={{ height: "150px" }}
         >
-            <SwiperSlide>
-                <img  src={electronic}    alt=""  />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img  src={jewelry}    alt=""  />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img  src={men}    alt=""  />
-            </SwiperSlide>
-            <SwiperSlide>
-                <img  src={women}    alt=""  />
-            </SwiperSlide>
-
-
-
+            {images.map((image) => <SwiperSlide key={image}>
+                <img src={image} alt="" height="100%" width="100%" style={{ objectFit: "contain", }} />
+            </SwiperSlide>)}
         </Swiper>
-
-    </div>
-
-
-
-
     )
-
-      
 }
