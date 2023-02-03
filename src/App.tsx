@@ -2,9 +2,9 @@ import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { Home } from './components/Home';
 import {BrowserRouter} from 'react-router-dom'  
-import {Shop} from './components/Shop';
-import {About} from './components/About';
-import {Contact} from './components/Contact';
+import {Shop} from './components/Pages/Shop';
+import {About} from './components/Pages/About';
+import {Contact} from './components/Pages/Contact';
 import {Routes, Route} from 'react-router-dom'
 import './App.css';
 
