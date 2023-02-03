@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/components/Pages/Contact.tsx
+src/components/Contact.tsx
+src/components/About.tsx
