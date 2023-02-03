@@ -107,14 +107,14 @@ p{
 
   footer {
     width: 100%;
-    position: fixed;
+    position: relative;
     bottom: 0;
     background: linear-gradient(to right,  #DEB887, #DEB887, #FAEAB1, #F2DEBA);
     color: #fff;
     padding: 10px 0 10px;
     border-top-left-radius: 125px;
     font-size: 13px;
-    line-height: 13px;
+    line-height: 2px;
   }
   
   .row {
@@ -130,7 +130,7 @@ p{
     flex-basis: 25%;
     padding: 10px;
   }
-  
+ 
   .col:nth-child(2),
   .col:nth-child(3) {
     flex-basis: 15%;
@@ -280,3 +280,4 @@ form .far {
     }
   }
  
+
